@@ -1,0 +1,80 @@
+/* ─── Hero: height set by text, not by viewport ─── */
+.home-container {
+  background-color: #313145;   /* slightly lighter than deep navy */
+}
+
+.hero-section {
+  display: flex;
+  align-items: stretch;
+  /* NO min-height — let text define the height */
+}
+
+.hero-text-block {
+  flex: 1.1;
+  padding: 3.5rem 2rem 3.5rem 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* No global sepia here — sepia is only on the image */
+}
+
+.hero-title {
+  font-family: var(--font-heading);
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 0.4rem;
+}
+.hero-subtitle {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+.hero-bio p {
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  color: #ddd;
+  line-height: 1.65;
+}
+.hero-bio strong { font-weight: 700; color: #fff; }
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.8rem;
+}
+
+/* ─── Hero image: fills the height of the text block ─── */
+.hero-image-block {
+  flex: 1;
+  overflow: hidden;
+  align-self: stretch;
+  position: relative;
+}
+
+/* Authentic Wix-style golden color overlay */
+.hero-image-block::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(212, 175, 55, 0.25); /* True yellow/gold overlay */
+  pointer-events: none;
+}
+.hero-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
+  display: block;
+  filter: sepia(0.4) saturate(1.2);  /* Reduce base sepia drastically, boost saturation slightly */
+}
+
+/* ─── Mobile ─── */
+@media (max-width: 900px) {
+  .hero-section { flex-direction: column; }
+  .hero-text-block { padding: 2rem; }
+  .hero-image-block { min-height: 300px; }
+}

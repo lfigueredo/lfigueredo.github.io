@@ -1,0 +1,98 @@
+.resources-page {
+  padding-top: 100px;
+  min-height: 80vh;
+  background-color: var(--bg-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resources-hero {
+  position: relative;
+  width: 100%;
+  height: 520px;
+  background-color: rgba(95, 97, 118, 0.7); /* Lighter grey-blue */
+  margin: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resources-image-box {
+  position: absolute;
+  right: 0;
+  width: 48%;
+  height: 85%;
+  margin-right: 6%;
+  background-image: url('https://static.wixstatic.com/media/8009f7_a3a0fa8806d74136b2bab4149ac523e6~mv2.jpg/v1/fill/w_940,h_414,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8009f7_a3a0fa8806d74136b2bab4149ac523e6~mv2.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+/* Wix Overlay Effect */
+.resources-image-box::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.resources-content-box {
+  position: relative;
+  background-color: rgb(51, 52, 63); /* #33343F */
+  width: 600px;
+  padding: 90px 70px;
+  margin-right: 20%; /* More overlap */
+  z-index: 2;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+
+
+.resources-content-box h2 {
+  font-family: var(--font-heading);
+  font-size: 38px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.resources-content-box p {
+  font-family: 'Helvetica', Arial, sans-serif; /* Matching the cleaner Wix look */
+  font-size: 18px;
+  line-height: 1.7;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+@media (max-width: 1100px) {
+  .resources-content-box {
+    width: 500px;
+    padding: 60px 40px;
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  .resources-hero {
+    height: auto;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  .resources-image-box {
+    position: relative;
+    width: 100%;
+    height: 300px;
+  }
+  .resources-content-box {
+    position: relative;
+    width: 90%;
+    margin: -50px auto 30px;
+    padding: 40px 30px;
+  }
+}
+

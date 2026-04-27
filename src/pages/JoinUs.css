@@ -1,0 +1,249 @@
+.joinus-page {
+  background-color: #282830; /* Dark Charcoal Page Background */
+  color: #fff;
+  font-family: inherit;
+  padding-bottom: 4rem;
+}
+
+/* Typography Defaults */
+.page-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.section-heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  margin-top: 1.2rem;
+  color: #fff;
+}
+
+.intro-text, .body-text {
+  font-size: 14px;
+  color: #d8dcdb;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.intro-text {
+  font-size: 14.5px;
+  margin-bottom: 2.5rem;
+}
+
+.applicant-title {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+/* Top Banner Layout */
+.joinus-top-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.joinus-split-banner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 0;
+  margin: 4rem 0 2rem;
+  background-color: #434459; /* Wix Slate Grey Content Block */
+  overflow: hidden;
+}
+
+.joinus-image-half {
+  flex: 0.7;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+}
+
+.joinus-image-half::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(212, 175, 55, 0.25);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.joinus-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  opacity: 0.95; 
+  filter: sepia(0.4) saturate(1.2);
+}
+
+/* .joinus-image-overlay removed in favor of CSS filter on the img */
+
+.joinus-text-half {
+  flex: 1.3;
+  padding: 3rem 10% 3rem 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Open Positions Thin Banner */
+.open-positions-banner {
+  background-color: #383c48;
+  padding: 1.5rem 0;
+  width: 100%;
+}
+.positions-flex {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.icon-side {
+  font-size: 2.5rem;
+}
+.details-side {
+  flex: 1;
+}
+.details-side h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
+  font-weight: 400;
+}
+.red-text {
+  color: #e74c3c;
+}
+.details-side h3 {
+  color: #ccc;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+}
+.link-underline {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 0.9rem;
+}
+
+/* Bottom Blocks Section */
+.joinus-bottom-blocks {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.block-card {
+  background-color: #434459;
+  padding: 1.5rem 3rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 90%;
+  border-radius: 4px;
+}
+
+/* MS Students Nottingham specific block */
+.ms-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.ms-left {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ms-right {
+  flex: 1;
+  text-align: right;
+}
+
+.chart-group-text {
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+.chart-group-text a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.join-solid-btn {
+  background-color: #D4AF37;
+  color: #1a1a2e;
+  border: none;
+  padding: 12px 25px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+.join-solid-btn:hover {
+  background-color: #bfa033;
+}
+
+.small-margin-top {
+  margin-top: 0.5rem;
+}
+
+/* Zigzag Layout in Applicant Wrapper */
+.applicant-wrapper-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.applicant-item {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.applicant-item.right {
+  align-self: flex-end;
+  text-align: right;
+}
+
+.applicant-item.left {
+  align-self: flex-start;
+  text-align: left;
+}
+
+@media (max-width: 900px) {
+  .joinus-split-banner {
+    flex-direction: column;
+  }
+  .joinus-image-half {
+    min-height: 400px;
+  }
+  .joinus-text-half {
+    padding: 2rem;
+  }
+  .ms-block {
+    flex-direction: column;
+  }
+  .ms-right {
+    text-align: left;
+    margin-top: 1rem;
+  }
+  .applicant-item {
+    width: 100%;
+    align-self: center !important;
+    text-align: left !important;
+  }
+  .block-card {
+    padding: 1.5rem;
+    width: 95%;
+  }
+}

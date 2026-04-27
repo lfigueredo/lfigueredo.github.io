@@ -1,0 +1,33 @@
+.older-projects-section {
+  padding: 2rem 10% 6rem 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.older-projects-header {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #3b3b4f;
+  padding-bottom: 1rem;
+}
+
+.accordion-card {
+  background-color: #2b2b3a; /* Dark accordion background */
+  border-left: 5px solid #D4AF37; /* The yellow/gold accent matching the wix theme */
+  padding: 1.5rem 2rem;
+  border-radius: 4px;
+}
+
+.accordion-title {
+  color: #D4AF37;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.accordion-desc {
+  color: #ccc;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}

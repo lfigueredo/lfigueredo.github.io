@@ -1,0 +1,811 @@
+[
+  {
+    "id": 1,
+    "date": "mar. 2026",
+    "tag": "Professional",
+    "title": "Invited Editor @ IEEE CBS 2026",
+    "description": "Proud to join the editorial team for the IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA) / IEEE CBS 2026, to be held in Munich. Looking forward to connecting outstanding robotics and AI research with this prestigious venue!",
+    "icon": "/figures/news/2026/cbs2026.png",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://attend.ieee.org/cbs-2026/"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "date": "mar. 2026",
+    "tag": "Professional",
+    "title": "Riddhiman Laha \u2013 PhD Defended!",
+    "description": "Massive congratulations to Dr Riddhiman Laha, who has successfully defended his PhD viva! Riddhiman's thesis, developed under close collaborative supervision, pushed the boundaries of reactive manipulation and multi-agent robot planning. He is now joining Seth Hutchinson's group as a Postdoctoral Researcher \u2014 an outstanding step for an outstanding researcher!",
+    "icon": "/figures/news/2026/news_2026_mar___riddhiman_laha_phd_de.jpg",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://www.linkedin.com/posts/riddhiman-laha-400a2898_im-grateful-to-share-that-ive-successfully-activity-7450540747751055361-98fy?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAB0jQB45Rg_LyKLoa-2bmYxBEN2aopg1E"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "date": "fev. 2026",
+    "tag": "Grant",
+    "title": "IEEE RAS SPARX Mentor (2026-2027)",
+    "description": "Truly honoured to be selected as a Mentor for the IEEE RAS SPARX Programme, an international initiative supporting early-career researchers in robotics and AI. Together with partners from the University of Nottingham (UK) and the University of Bras\u00edlia (Brazil), our work will focus on enabling non-experts to teach robot tasks through natural language and dynamic systems.",
+    "icon": "/figures/news/2026/news_2026_abr___ieee_ras_sparx_mentor_pi.png"
+  },
+  {
+    "id": 4,
+    "date": "fev. 2026",
+    "tag": "Award",
+    "title": "Editors' Choice Certificate: Elsevier Best Paper Award",
+    "description": "Honoured to receive the Best Paper Award (Editors' Choice Certificate) from Elsevier Biomimetic Intelligence and Robotics for our work: 'Motion planning for robotics: A review for sampling-based planners.' The award recognises the paper's impact as a reference for researchers globally. Kudos to the whole team!",
+    "icon": "/figures/news/2026/news_2026_jan___bestpaper.jpg"
+  },
+  {
+    "id": 5,
+    "date": "jan. 2026",
+    "tag": "Professional",
+    "title": "Yuhe Gong \u2013 Conference Events Co-Chair for the IEEE RAS Student Activities Committee",
+    "description": "Delighted to share that my PhD student Yuhe Gong has been appointed Conference Co-Chair for IEEE SAC. A fantastic milestone that reflects her growing leadership in the robotics community \u2014 an achievement she has fully earned!",
+    "icon": "/figures/news/2026/news_2026_jan___yuhe_gong__ieee_sac.jpg",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://www.linkedin.com/posts/ieee-ras-sac_ieeeras-ieeerassac-robotics-ugcPost-7433167872308244480-Z9Ai?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAB0jQB45Rg_LyKLoa-2bmYxBEN2aopg1E"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "date": "jan. 2026",
+    "tag": "Paper",
+    "title": "Triple Paper Acceptance @ IEEE ICRA-26",
+    "description": "Excited to announce 3 papers accepted for ICRA-2026! We will present: (i) GIFT: Category-level object manipulation; (ii) GeoFIK: Fast geometric IK for the Franka arm; and (iii) Contact-Safe RL with ProMP reparameterization. See you in Vienna! Kudos to all authors, especially, Bingkun, Pablo, Yuhe, and Cristiana.",
+    "icon": "/figures/news/2026/news_2026_jan___icra26.png"
+  },
+  {
+    "id": 7,
+    "date": "out. 2025",
+    "tag": "Award",
+    "title": "Best Paper Award \u2013 Yuhe @ Safety Robotics Workshop",
+    "description": "Congratulations to my student Yuhe Gong on winning the Best Paper Award at the workshop on Building Safety-Critical Robots! A fantastic recognition of truly rigorous and impactful work in safe robot motion planning. Proud of you, Yuhe!",
+    "icon": "/figures/news/2025/news_2025_out___iros25_proxy.jpg"
+  },
+  {
+    "id": 8,
+    "date": "out. 2025",
+    "tag": "Workshop",
+    "title": "Organized 2 Workshops & Invited Talk @ IROS 2025",
+    "description": "Co-organized two exciting workshops: 'Building Safe Robots' and 'Multi-Arm Manipulation', alongside giving an invited talk at the Benzmarking Workshop!",
+    "links": [
+      {
+        "label": "Safe Robots WS",
+        "url": "https://building-safe-robots-workshop.github.io/"
+      },
+      {
+        "label": "Multi-Arm WS",
+        "url": "https://www.iit.it/web/hrii/iros2025-workshop-multi-arm"
+      },
+      {
+        "label": "Read More",
+        "url": "https://sites.google.com/view/iros2025-bench-competitions/"
+      }
+    ],
+    "icon": "/figures/news/2025/news_2025_out___iros25_proxy.jpg"
+  },
+  {
+    "id": 9,
+    "date": "set. 2025",
+    "tag": "Professional",
+    "title": "Program Chair - AC for the Systems track subcommittee @ HRI 2026",
+    "description": "Thrilled to serve as Program Chair for the ACM/IEEE International Conference on Human-Robot Interaction (HRI 2026)! HRI is one of the most prestigious venues in our field and it is a privilege to contribute to shaping its scientific programme. Additionally serving as Area Chair (AC) for the Systems track subcommittee.",
+    "icon": "/figures/news/2025/hri_2026_seplogo.jpg",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://humanrobotinteraction.org/2026/organizers/"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "date": "jul. 2025",
+    "tag": "Workshop",
+    "title": "4th Geriatronics Summit & Summer School",
+    "description": "Co-organized the 4th Geriatronics Summit in Garmisch-Partenkirchen, bringing together 60 students and 11 speakers for tutorials on assistive robotics. Participants explored human-robot collaboration for ageing societies, building practical skills. The summit fostered tremendous collaborations between researchers, caregivers and industry partners.",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://www.mirmi.tum.de/en/geriatronics/events/geriatronics-summit-summer-school/"
+      }
+    ],
+    "icon": "/figures/news/2025/news_2025_jul___geriatronics_25.jpg"
+  },
+  {
+    "id": 11,
+    "date": "jun. 2025",
+    "tag": "Event",
+    "title": "Live Demos of Assistive Robots @ Automatica 2025",
+    "description": "Coordinated several live demonstrations at Automatica 2025, the world's leading trade fair for smart automation and robotics held in Munich, in the context of the GERIATRONICS Project. We organized 7 demos with personally 3 demos running in parallel, showcasing assistive robots designed for social care resulting from UoN and TUM collaboration. Amazing kudos to the whole team!"
+  },
+  {
+    "id": 12,
+    "date": "mai. 2025",
+    "tag": "Award",
+    "title": "Winner of the PhyRC Challenge @ ICRA-25",
+    "description": "Winning team (RoboNotts) for the Bed Bath Tracking Challenge at the Physical Human-Robot Interaction Competition (PhyRC) during ICRA 2025. Kudos to the whole team, Yuhe, Jialin, Simon, Liz, Praminda, and Aly. But, especially, Koyo who lead the efforts.",
+    "links": [
+      {
+        "label": "Read More (LinkedIn)",
+        "url": "https://www.linkedin.com/posts/ruolin-ye-815137290_icra2025-activity-7336784761996083202-3c7b/"
+      },
+      {
+        "label": "Challenge Site",
+        "url": "https://emprise.cs.cornell.edu/rcareworld/challenge/"
+      }
+    ],
+    "icon": "/figures/news/2025/news_2025_mai___phyrc.jpg"
+  },
+  {
+    "id": 13,
+    "date": "mai. 2025",
+    "tag": "Talk",
+    "title": "Invited Talk @ ICRA 2025: Long-term Human Motion Prediction",
+    "description": "Invited Talk at the 7th Workshop on Long-term Human Motion Prediction at ICRA 2025.",
+    "links": [
+      {
+        "label": "Workshop Site",
+        "url": "https://motionpredictionicra2025.github.io/"
+      },
+      {
+        "label": "YouTube Talk",
+        "url": "https://www.youtube.com/watch?v=rBNFX7PYOx8"
+      }
+    ],
+    "icon": "/figures/news/2025/news_2025_mai___mpicra25.jpg"
+  },
+  {
+    "date": "mai. 2025",
+    "tag": "Event",
+    "title": "Participation @ ICRA 2025 in Atlanta",
+    "description": "Amazing time in Atlanta for ICRA 2025! Proud of the entire group's efforts presenting our work on Long-term Human Motion Prediction and actively competing in the PhyRC Challenge.",
+    "icon": "/figures/news/2025/atlanta_icra.jpg",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://www.linkedin.com/posts/luis-figueredo-304a0612b_atlanta-lhmp-phyrc-activity-7333201640247730176-0k67?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAB0jQB45Rg_LyKLoa-2bmYxBEN2aopg1E"
+      }
+    ],
+    "id": 14
+  },
+  {
+    "date": "abr. 2025",
+    "tag": "News",
+    "title": "Feature @ TC on Robot Control Spotlight",
+    "description": "Featured in the very first spotlight issue from the TC on Robot Control (IEEE RAS), highlighting researchers who are pushing the boundaries of robot control. Fully honoured to share insights about my research on building intelligent and safe robots.",
+    "icon": "/figures/news/2025/tc_spotlight.svg",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://ieee-ras-robot-control.github.io/spotlights/luis-figueredo-mar2025/"
+      }
+    ],
+    "id": 15
+  },
+  {
+    "id": 16,
+    "date": "mar. 2025",
+    "tag": "Paper",
+    "title": "Fresh TRO Paper: Safe Robot Reflexes",
+    "description": "Excited to announce our new IEEE-TRO Paper on Robot Safety: Safe Robot Reflexes: A Taxonomy-based Decision and Modulation Framework. Reflexes and post-collision reactions are fundamental for safety, and this work comprehensively covers these aspects with the best robot safety team I could ask for!",
+    "icon": "/figures/news/2025/news_2025_jan___fresh_tro_paper_safe_robot_ref.gif",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://ieeexplore.ieee.org/document/10804590"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "date": "mar. 2025",
+    "tag": "Grant",
+    "title": "Grant: Transforming Chemistry Labs",
+    "description": "Thrilled to lead the project 'Safe & Intuitive Human-in-the-Loop Robotic Systems' at UoN, supported by a URKI grant from the AI-Chemy Hub.",
+    "icon": "/figures/news/2025/news_2025_mar___aichemy_flat.png"
+  },
+  {
+    "id": 18,
+    "date": "mar. 2025",
+    "tag": "Talk",
+    "title": "Invited Talk @ Talking Robotics",
+    "description": "Talking Robots is an amazing initiative that was pushed originally by my previous student Riddhiman Laha and others, and now it is carried on wonderfully by Yuhe Gong and the team! Honoured to present our work here.",
+    "links": [
+      {
+        "label": "YouTube Talk",
+        "url": "https://www.youtube.com/watch?v=esxap2qMfhs"
+      }
+    ],
+    "icon": "/figures/news/2025/news_2025_mar___talking_robotics.jpg"
+  },
+  {
+    "date": "mar. 2025",
+    "tag": "Talk",
+    "title": "Invited Talk @ AIchemy Inaugural Annual Conference",
+    "description": "Invited talk at the AIchemy Inaugural Annual Conference. Excited to share our work on chemistry automation!",
+    "icon": "/figures/news/2025/news_2025_mar___aichemy_flat.png",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://aichemy.ac.uk/event/aichemy-annual-conference/"
+      }
+    ],
+    "id": 19
+  },
+  {
+    "id": 20,
+    "date": "fev. 2025",
+    "tag": "Professional",
+    "title": "Elevated to IEEE Senior Member",
+    "description": "Deeply honored to be elevated to the grade of IEEE Senior Member, a significant milestone reflecting professional maturity and contributions to the field.",
+    "icon": "/figures/news/2025/news_2025_fev___ieee_sm.jpg"
+  },
+  {
+    "id": 21,
+    "date": "jan. 2025",
+    "tag": "Paper",
+    "title": "Fresh Papers @ IEEE ICRA-25",
+    "description": "Happy to say we have 2 fresh papers accepted at ICRA-25! (i) manipulability transfer and tracking control: bridging domain adaptation with predictive feasibility and (ii) on the synthesis of reactive collision-free whole-body robot motions: a complementarity-based approaching. Kudos specially to Haowen Yao and Yuhe Gong, particulary Yuhe on her first (of many) ICRA/IROS Paper!",
+    "icon": "/figures/news/2025/news_2025_jan___fresh_papers_ieee_icra_25.jpg"
+  },
+  {
+    "id": 22,
+    "date": "jan. 2025",
+    "tag": "Talk",
+    "title": "Invited Talk @ 6th UK Robot Manipulation Workshop",
+    "description": "Very excited to be back to a UK Robot Manipulation Workshop and being able to give a Keynote Talk at Kings. It is exciting to meet old and new friends and discuss research in one of the best events about manipulation in the world! Extremely proud that all my students presented and received valuable feedback, including Yuhe, Raul, Jose, and Koyo!",
+    "icon": "/figures/news/2025/news_2025_jan___invited_talk_6th_uk_robot_mani.jpg",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://www.robot-manipulation.uk/_files/ugd/20f657_5540a3e31c5449768caf48cfaad29f3c.pdf"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "date": "jan. 2025",
+    "tag": "Professional",
+    "title": "Steering Group for Chemical Materials Design",
+    "description": "Thrilled to join the Steering Group for Chemical Materials Design at the Henry Royce Institute. Excited to support groundbreaking discoveries.",
+    "icon": "/figures/news/2025/news_2025_jan___steering_group_for_chemical_ma.jpg",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://www.royce.ac.uk/research/research-areas/chemical-materials-design/?research-area=chemical-materials-design"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "date": "jan. 2025",
+    "tag": "Professional",
+    "title": "IEEE UK & Ireland RAS Chapter - Secretary",
+    "description": "I'm truly honoured to have been elected as the Secretary of the IEEE Robotics and Automation Society - UK/Ireland (RAS) Chapter for the 2025-2026 term.",
+    "icon": "/figures/news/2025/news_2025_jan___ieee_uk_ireland_ras_ch.png"
+  },
+  {
+    "id": 25,
+    "date": "dez. 2024",
+    "tag": "Workshop",
+    "title": "Fresh ICRA-25 Workshops",
+    "description": "Holiday Season Presents: 2 amazing WS accepted @ ICRA-25! \ud83e\udd16 WS.1: How do Robots Care? Innovative Strategies and Interfaces for Physically Assistive Robots in Healthcare; \ud83e\udd16 WS.2: The Future of Intelligent Manufacturing: From innovation to implementation.",
+    "icon": "/figures/news/2024/news_2024_dez___fresh_icra_25_workshops.jpg",
+    "links": [
+      {
+        "label": "Workshop 1",
+        "url": "https://www.iit.it/web/hrii/icra2025-workshop"
+      },
+      {
+        "label": "Workshop 2",
+        "url": "https://sites.google.com/view/intelligent-manufacting-icra25/home"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "date": "out. 2024",
+    "tag": "Talk",
+    "title": "Invited Talk @ Plenary Talk @ SBGTEC-24 - 5th BR Conf. Gerontech",
+    "description": "Just had an incredible and personal experience giving the keynote at the 5th Brazilian Conference on Gerontechnology in Curitiba! \ud83c\udde7\ud83c\uddf7\ud83e\udd16 Special thanks for the organizers Taiuani, Carla, Lilian and Fausto.",
+    "icon": "/figures/news/2024/news_2024_out___invited_talk_sbgtec_24.png"
+  },
+  {
+    "id": 27,
+    "date": "set. 2024",
+    "tag": "Talk",
+    "title": "Invited Talk @ BioRob-2024 MathWorks Special Session",
+    "description": "Following up our amazing collaboration, I was very happy to give an invited talk at the MathWorks Special Session at BioRob 2024 about our MathWorks Toolbox RHuMAN vs 2.0 currently underdevelop with the brilliant Junnan Li and Haowen Yao. Many thanks for Kathi Kugler for our ongoing collaboration.",
+    "icon": "/figures/news/2024/news_2024_set___invited_talk_biorob_2024_mathw.jpg",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://content.mathworks.com/viewer/66f172e0cde3a741eb890788"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "date": "set. 2024",
+    "tag": "Workshop",
+    "title": "WS @ BioRob-2024 on Revolutionising Ageing",
+    "description": "We just completed the Workshop on Revolutionising Ageing at the well-organised BioRob-2024 in Heidelberg. Thank to the amazing speakers: Robert Riener, Mohamed Bouri, Eva Swinnen, Fanny Ficuciello, Tadej Petric and Yanan Li.",
+    "icon": "/figures/news/2024/news_2024_set___ws_biorob_2024_on_revolutionis.jpg",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://sites.google.com/view/revolutionizing-aging-biorob24/home"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "date": "jul. 2024",
+    "tag": "Talk",
+    "title": "Invited Talk @ RSS-24 - WS on Assistive Manip.",
+    "description": "Had a wonderful time giving a talk at the Learning for Assistive Manipulation WS at RSS-2024! Many thanks for the amazing WS. Kudos to the organizers Fan Zhang, Jihong Zhu, PhD, Tapomayukh Bhattacharjee, Zackory Erickson, Jens Kober and Maya Cakmak!",
+    "icon": "/figures/news/2024/news_2024_jul___invited_talk_rss_24_ws_o.png",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://sites.google.com/view/rss2024-assistive-robotics/home-page"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "date": "jul. 2024",
+    "tag": "Workshop",
+    "title": "3rd Geriatronics Summit",
+    "link": "https://lnkd.in/ec7aG7eU",
+    "description": "Thrilled to announce that the 3rd Geriatronics Summit was a success!! A beautiful place with enlightening conversations about the future of Geriatronics. Many thanks to Speakers: Eckehard Steinbach, Aaron Edsinger, Astrid Weiss, Dana Kulic, Robert Riener, Christian Ott, Seth Hutchinson, Georgia Chalvatzaki, Uli Fischer, Yanan Li, Meghan Huber, Mohamed Bouri, Katrin Paldan.",
+    "icon": "/figures/news/2025/summit3.jpg",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://www.picdrop.com/maxmerget/zpAut1DAC9"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "date": "jun. 2024",
+    "tag": "Talk",
+    "title": "Invited Talk @ Julie Shah's Lab at MIT",
+    "description": "Visited Julie Shah's Iterative Lab at MIT. It was great to see their brilliant work, give a talk, and discuss research with Mike, Dimos, and others. Thanks for the warm reception!",
+    "icon": ""
+  },
+  {
+    "id": 32,
+    "date": "jun. 2024",
+    "tag": "Event",
+    "title": "Mathworks Research Summit",
+    "description": "Honored to be invited to the 2024 Mathworks Research Summit. Looking forward to engaging discussions with contributors and exploring innovations in Matlab.",
+    "icon": "/figures/news/2024/news_2024_jun___mathworks_research_summit.png"
+  },
+  {
+    "id": 33,
+    "date": "mai. 2024",
+    "tag": "Award",
+    "title": "ICRA New Generation Star",
+    "description": "Honored to be selected for the ICRA New Generation Star Project, sponsored by NOKOV. Check out the Star Talk on YouTube.",
+    "icon": "/figures/news/2024/news_2024_mai___icra_new_generation_star.jpg",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://www.youtube.com/live/n8NuSs5WkQo?t=2728s"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "date": "mai. 2024",
+    "tag": "Talk",
+    "title": "Invited Talk @ Leeds: Good to be back!",
+    "description": "Looking forward to giving a talk at the Robotics@Leeds Seminar on May 24th. Excited to reconnect post-pandemic and see the latest developments!",
+    "icon": "/figures/news/2024/news_2024_mai___invited_talk_leeds_good_to_be.jpg"
+  },
+  {
+    "id": 35,
+    "date": "abr. 2024",
+    "tag": "Event",
+    "title": "Visit to IIT for RAICAM Event",
+    "description": "Excited to visit Arash Ajoudani's team at IIT as part of the RAICAM event with our amazing consortium.",
+    "icon": "/figures/news/2024/news_2024_abr___visit_to_iit_for_raicam_event.jpg"
+  },
+  {
+    "id": 36,
+    "date": "mar. 2024",
+    "tag": "Talk",
+    "title": "Invited Talk @ Bavarian International School",
+    "description": "Delighted to speak at the Bavarian International School. Always a pleasure discussing robotics with the next generation!",
+    "icon": "/figures/news/2024/news_2024_mar___invited_talk_bavarian_in.jpg",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://www.linkedin.com/posts/bavarian-international-school_internationalschool-careersday-ibworldschool-ugcPost-7178423331170246656-Hatp?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAACAB0jQB45Rg_LyKLoa-2bmYxBEN2aopg1E"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "date": "jan. 2024",
+    "tag": "Paper",
+    "title": "Fresh RAL Paper: Fingertip Manipulability Paper Published",
+    "description": "Excited about our IEEE Robotics and Automation Letters paper on Fingertip Manipulability Assessment. Congratulations to Amartya and Junnan!",
+    "icon": "/figures/news/2024/news_2024_jan___fresh_ral_paper_fingertip.png",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://ieeexplore.ieee.org/document/10417117"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "date": "jan. 2024",
+    "tag": "Paper",
+    "title": "Papers Accepted at ICRA-24",
+    "description": "Thrilled to have three papers accepted at ICRA-24: RETOM, Barrier-Certified Systems, and CITR for Robotic Manipulation.",
+    "icon": "/figures/news/2024/news_2024_jan___papers_accepted_at_icra_2.jpg"
+  },
+  {
+    "id": 39,
+    "date": "jan. 2024",
+    "tag": "Workshop",
+    "title": "ICRA Workshop on Assistive Systems",
+    "description": "Our Workshop 'Assistive Systems: Lab to Patient Care' has been accepted for ICRA-2024. Excited for the event!",
+    "icon": "/figures/news/2024/news_2024_jan___icra_workshop_on_assistiv.jpg",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://sites.google.com/view/assistivesystems-icra-24/home"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "date": "dez. 2023",
+    "tag": "Grant",
+    "title": "Open Position Announcement",
+    "description": "Excited to announce a fully funded scholarship position in my group at the University of Nottingham. ",
+    "icon": "/figures/news/2023/news_2023_dez___open_position_announcement.png"
+  },
+  {
+    "id": 41,
+    "date": "dez. 2023",
+    "tag": "Media",
+    "title": "Profile Feature @ Tagesspiegel Background",
+    "description": "Honoured to be featured in Tagesspiegel Background Digitalisierung & KI! The profile covers the trajectory of my research, from fundamental robotics algorithms to real-world deployment in healthcare and AI. A great spotlight on our vision for the future of intelligent robots.",
+    "icon": "/figures/news/2023/tagesspiegel_logo.png",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://background.tagesspiegel.de/digitalisierung-und-ki/briefing/luis-figueredo#ts-paywall"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "date": "nov. 2023",
+    "tag": "Paper",
+    "title": "Fresh TRO Paper: Predictive Multi-Agent React. Planning",
+    "description": "Our TRO paper 'Predictive Multi-Agent Planning and Landing Controller for Reactive Dual-Arm Manipulation' has been published. Congratulations to Riddhi and Marvin!",
+    "icon": "/figures/news/2023/news_2023_nov___fresh_tro_paper_predictive_mul.png",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://ieeexplore.ieee.org/document/10354340"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "date": "nov. 2023",
+    "tag": "Paper",
+    "title": "Fresh RAL Paper: Enhanced Dexterity Maps",
+    "description": "Proud to share our paper 'Enhanced Dexterity Maps (EDM): A New Map for Manipulator Capability Analysis'. Congratulations to Haowen!",
+    "icon": "/figures/news/2023/news_2023_nov___fresh_ral_paper_enhanced_dexte.png",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://ieeexplore.ieee.org/document/10368298"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "date": "out. 2023",
+    "tag": "Workshop",
+    "title": "IROS-23 Workshop on Geriatronics",
+    "description": "Output of the workshop 'Geriatronics: AI and Robotics for Health & Well-Being in Older Age' at IROS-23. ",
+    "icon": "/figures/news/2023/news_2023_out___iros_23_papers_and_invited_tal.png"
+  },
+  {
+    "id": 45,
+    "date": "out. 2023",
+    "tag": "Paper",
+    "title": "IROS-23 Papers and Invited Talks",
+    "description": "Great time at IROS-23 in Detroit. Some fun with Rafael and our paper on Shared Autonomy Control for Slosh-Free Teleoperation. Also, many thanks to Luka, Wansoo, Heni, Arash and Eiichi for inviting me to a <b>talk at the 6th Ergonomic Physical Human-Robot Collaboration: Harnessing Advancements in Robot Learning.</b>",
+    "icon": "/figures/news/2023/news_2023_out___iros_23_papers_and_invited_tal.png",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://harco.hanyang.ac.kr/2023/03/03/IROS2023_workshop.html"
+      }
+    ]
+  },
+  {
+    "date": "out. 2023",
+    "tag": "Talk",
+    "title": "Invited Talk @ IROS 2023 - HARCO Workshop",
+    "description": "Invited talk at the IROS 2023 Human-Aware Robotic Co-workers (HARCO) Workshop.",
+    "icon": "/figures/news/2023/news_2023_out___iros_23_papers_and_invited_tal.png",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://harco.hanyang.ac.kr/2023/03/03/IROS2023_workshop.html"
+      }
+    ],
+    "id": 46
+  },
+  {
+    "id": 47,
+    "date": "set. 2023",
+    "tag": "Workshop",
+    "title": "HFR-23 - Human-Friendly Robotics Workshop",
+    "description": "Great experience hosting and organizing the 16th International Workshop on Human-Friendly Robotics at Munich, Germany with great people and friends, Cristina, Patricia, Manuel and Hinrich. Great papers and talks, including from my students and collaborators, Ainoor, Junnan, Amartya and Mazin.",
+    "icon": "/figures/news/2023/news_2023_set___hfr_23_human_friendly_robotics.jpg",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://sites.google.com/view/hfr2023/home"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "date": "ago. 2023",
+    "tag": "Professional",
+    "title": "Lecturer Position at Nottingham",
+    "description": "Started a lecturership position at the University of Nottingham, UK. Looking forward to new challenges and building a great lab.",
+    "icon": "/figures/news/2023/news_2023_ago___lecturer_position_at_not.jpg"
+  },
+  {
+    "id": 49,
+    "date": "jul. 2023",
+    "tag": "Workshop",
+    "title": "2nd Geriatronics Summit",
+    "link": "https://geriatronics.mirmi.tum.de/summit2023/",
+    "description": "Amazing experience to host the 2nd Geriatronics Summit! Many thanks to all the amazing 16 speakers.",
+    "icon": "/figures/news/2023/news_2023_jul___2nd_geriatronics_summit.jpg"
+  },
+  {
+    "id": 50,
+    "date": "jul. 2023",
+    "tag": "Award",
+    "title": "Geriatronics Summit Awards",
+    "description": "Congrats to my student Rafael I. Cabral Muchacho for getting the best student paper award at the Geriatronics Summit! And congrats to my collaborator Eva Theresa Jahn and Yuhe Gong, my student to be, for the tied 3rd place!",
+    "icon": "/figures/news/2023/news_2023_jul___geriatronics_summit_awards.jpg"
+  },
+  {
+    "id": 51,
+    "date": "jun. 2023",
+    "tag": "Media",
+    "title": "[In the Media]: Spillnot in Automatica - It won't fail!",
+    "description": "Exciting times at Automatica Munich 2023. In addition to supporting several demos of the Geriatronics team, my research group w/ Rafael I. Cabral Muchacho and Riddhiman Laha had a super fun demo: Interacting with Spill-Free Robots, where we challenged people to break our demo (Result: 8-hours of continuous run per 4 days, hundreds to thousands of users from kids to roboticists \u2014 and no break!)",
+    "icon": "/figures/news/2023/news_2023_jun___in_the_media_spillnot_in_auto.jpg",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7081350546552414208?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAB0jQB45Rg_LyKLoa-2bmYxBEN2aopg1E"
+      },
+      {
+        "label": "3sat video (from 15:47)",
+        "url": "https://www.3sat.de/wissen/nano/230628-sendung-insekten-als-nahrungsmitttel-der-zukunft-nano-100.html#15m47s"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "date": "mai. 2023",
+    "tag": "Workshop",
+    "title": "WS on Geometric Representations!",
+    "description": "Excited about output of our workshop on Geometric Representations: The Roles of Screw Theory, Lie Algebra & Geometric Algebra. At the peak, we had more than 110 people attending! Congrats to Julen U., Niklas Wilhelm Funk, Jan Peters, Georgia Chalvatzaki for the best paper!",
+    "icon": "/figures/news/2023/news_2023_mai___ws_on_geometric_representation.jpg",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://www.linkedin.com/posts/luis-figueredo-304a0612b_icra2023-activity-7070719705941991424-wBUV?utm_source=share&utm_medium=member_desktop"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "date": "mai. 2023",
+    "tag": "Paper",
+    "title": "ICRA-23 London Time!",
+    "description": "Excited to present two papers with our team! Congrats to Arthur Bucker, Wenxi Wu and Riddhiman Laha! Talk to us at the poster session! Also, excited to have once again a demo running in the Exhibition center. Check out the Franka/Clearpath booth.",
+    "icon": "/figures/news/2023/news_2023_mai___icra_23_london_time.jpg"
+  },
+  {
+    "id": 54,
+    "date": "abr. 2023",
+    "tag": "Talk",
+    "title": "Invited Talk @ Gabriella Pizzuto's visit and talk",
+    "description": "Very happy to host a good friend and amazing researcher Gabriella Pizzuto for a talk about robotics and chemistry!",
+    "icon": ""
+  },
+  {
+    "id": 55,
+    "date": "abr. 2023",
+    "tag": "Talk",
+    "title": "Invited Talk @ Devanthro - RoBody!",
+    "link": "https://www.devanthro.com",
+    "description": "Super happy to give at Devanthro - the Robody Company, see friends and check out their super cool Roboy and the student's presentations.",
+    "icon": "/figures/news/2023/news_2023_abr___invited_talk_devanthro_robody.jpg"
+  },
+  {
+    "id": 56,
+    "date": "mar. 2023",
+    "tag": "Workshop",
+    "title": "Fresh IROS WS - Geriatronics!",
+    "link": "https://geriatronics.mirmi.tum.de/iros23ws/",
+    "description": "Our Workshop Geriatronics: AI and Robotics for Health & Well-Being in Older Age has been accepted for the 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2023).",
+    "icon": "/figures/news/2023/news_2023_mar___fresh_iros_ws_geriatronics.png",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://sites.google.com/view/geriatronics-iros-2023/home"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "date": "fev. 2023",
+    "tag": "Professional",
+    "title": "Associated Editor for IROS!",
+    "description": "I have been invited to work as Associated Editor at the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)! Excited to contribute with the excellence of the conference!",
+    "icon": "/figures/news/2023/news_2023_fev___associated_editor_for_iros.png"
+  },
+  {
+    "id": 58,
+    "date": "jan. 2023",
+    "tag": "Event",
+    "title": "RAICAM Kick-Off Meeting!",
+    "link": "https://raicam.eu",
+    "description": "I was very happy to host RAICAM's Kick-off meeting with amazing collaborators.",
+    "icon": "/figures/news/2023/news_2023_jan___raicam_kick_off_meeting.jpg",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://raicam.eu/"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "date": "jan. 2023",
+    "tag": "Media",
+    "title": "[In the Media]: Spillnot is everywhere!",
+    "description": "Our research was covered at the TUM.de website. We were also seen at the U-Bahn (metro) all over Munich. Many thanks to Andreas Schmitz.",
+    "icon": "/figures/news/2023/news_2023_jan___in_the_media_spillnot_is_ever.jpg",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/so-werden-roboter-zu-perfekten-oberkellnerinnen"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "date": "jan. 2023",
+    "tag": "Paper",
+    "title": "Fresh Papers for ICRA-23",
+    "link": "https://arxiv.org/abs/2208.02918",
+    "description": "Our Papers (i) S*: On Safe and Time Efficient Robot Motion Planning and (ii) LaTTe: Language Trajectory TransformEr (arxiv version) have been accepted for presentation at ICRA-23!",
+    "icon": "/figures/news/2023/news_2023_jan___fresh_papers_for_icra_23.webp"
+  },
+  {
+    "id": 61,
+    "date": "nov. 2022",
+    "tag": "Award",
+    "title": "[Award]: Paper Award Finalist at IEEE-RAS Humanoids-22",
+    "description": "We were awarded the Best Interactive Paper Award Finalist at the IEEE-RAS Humanoids-22. Paper: Integrated Bi-Manual Motion Generation & Control shaped for Probabilistic Movement Primitives! Kudos to Jonathan, Riddhi, Jo\u00e3o and Doro!",
+    "icon": "/figures/news/2022/news_2022_nov___award_paper_award_finalist_at.jpg"
+  },
+  {
+    "id": 62,
+    "date": "nov. 2022",
+    "tag": "Award",
+    "title": "[Award]: VDE Best Bachelor Thesis to Ben!",
+    "description": "Benjamin Bogenberger, who recently finished his Bachelor thesis advised by me and Riddhiman Laha, has received the VDE Bayer Award: Best Bachelor Thesis. Kudos to Ben!",
+    "icon": "/figures/news/2022/news_2022_nov___award_vde_best_bachelor_thesi.JPG",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://www.mirmi.tum.de/en/mirmi/news/article/mirmi-bachelorand-benjamin-bogenberger-bekommt-vde-award/"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "date": "ago. 2022",
+    "tag": "Media",
+    "title": "[In the Media] Collab. with Microsoft",
+    "description": "Our work in collaboration with Microsoft Research has been highlighted in their website!",
+    "icon": "/figures/news/2022/news_2022_ago___in_the_media_collab_wi.jpg",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://www.microsoft.com/en-us/research/group/autonomous-systems-group-robotics/articles/robot-language/"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "date": "jun. 2022",
+    "tag": "Paper",
+    "title": "Fresh Papers for IROS-22",
+    "description": "Very happy to say that we had 4 papers accepted for IROS + 1 RAL for presentation. It is going to be a busy IROS.",
+    "icon": "/figures/news/2022/news_2022_jun___fresh_papers_for_iros_22.png"
+  },
+  {
+    "id": 65,
+    "date": "jun. 2022",
+    "tag": "Paper",
+    "title": "Demos at Automatica Munich",
+    "description": "Exciting times at the Automatica Munich. Together with the Geriatronics team and my research group, we presented a total of 5 demos at Automatica-22.",
+    "icon": "/figures/news/2022/news_2022_jun___demos_at_automatica_muni.png"
+  },
+  {
+    "id": 66,
+    "date": "jun. 2022",
+    "tag": "Workshop",
+    "title": "1st Geriatronics Summit!",
+    "description": "Amazing experience to host the 1st Geriatronics Summit! Many thanks for all the amazing 15 speakers!",
+    "icon": "/figures/news/2022/news_2022_jun___1st_geriatronics_summit.png"
+  },
+  {
+    "id": 67,
+    "date": "jun. 2022",
+    "tag": "Award",
+    "title": "Geriatronics Summit Awards",
+    "description": "Congrats to my students and collaborators for awards at the Geriatronics Summit!",
+    "icon": "/figures/news/2022/news_2022_jun___geriatronics_summit_awards.png"
+  },
+  {
+    "id": 68,
+    "date": "mai. 2022",
+    "tag": "Award",
+    "title": "Award: ICRA-22 Best Reviewer Award",
+    "description": "Received the ICRA-22 Outstanding Reviewer Award from the Conference Editorial Board (CEB). It is one of the most important I've ever received given the importance I give to the review process!",
+    "icon": "/figures/news/2022/news_2022_mai___award_icra_22_best_reviewer_aw.jpg"
+  },
+  {
+    "id": 69,
+    "date": "fev. 2022",
+    "tag": "Grant",
+    "title": "MSCA-DN RAICAM - Accepted",
+    "description": "Our Marie-Curie Doctoral Network proposal (MSCA-DN/Horizon) has been accepted. The Robotics and Artificial Intelligence for Critical Asset Monitoring (RAICAM) project will start in 2022!",
+    "icon": "/figures/news/2022/news_2022_fev___msca_dn_raicam_accepted.png",
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://raicam.eu/"
+      }
+    ]
+  }
+]

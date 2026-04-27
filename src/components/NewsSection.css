@@ -1,0 +1,266 @@
+/* ─── Wrapper: left Baxter | right news ─── */
+.news-wrapper {
+  display: flex;
+  background-color: #3d3d56;
+}
+
+/* ─── LEFT PANEL: wider, sticky ─── */
+.news-left-panel {
+  width: 540px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+.news-left-bg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 60% 65%;
+  filter: brightness(0.85);
+}
+
+/* ─── RIGHT PANEL ─── */
+.news-right-panel {
+  flex: 1;
+  padding: 3rem 4rem 3rem 3rem;
+  background-color: #3d3d56;
+}
+
+.news-header h2 {
+  font-family: var(--font-heading);
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: #fff;
+}
+.news-header h3 {
+  font-family: var(--font-body);
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  margin-bottom: 2.5rem;
+}
+
+/* ─── NEWS CARD — CSS Grid: meta+title top row, desc full width below ─── */
+.news-card {
+  display: grid;
+  grid-template-columns: auto 1fr 150px;
+  grid-template-rows: auto auto 1fr;
+  gap: 0 1rem;
+  padding: 1rem 1.2rem 0.6rem 1.2rem;
+  margin-bottom: 0.8rem;
+  background: rgba(60, 60, 80, 0.6);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  border: 1px solid rgba(255,255,255,0.07);
+  transition: box-shadow 0.3s;
+  position: relative;
+  min-height: 100px;
+}
+.news-card.no-icon {
+  grid-template-columns: auto 1fr;
+}
+.news-card:hover {
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6);
+}
+
+/* ─── Top-left meta: globe + date/tag — row 1 col 1 ─── */
+.nc-meta {
+  grid-row: 1;
+  grid-column: 1;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  flex-shrink: 0;
+  padding-top: 0.3rem;
+  min-width: 90px;
+}
+
+.nc-globe {
+  font-size: 1rem;
+  opacity: 0.85;
+  display: inline-block;
+  transition: transform 0.2s;
+}
+.nc-globe.spinning {
+  animation: globeSpin 0.8s linear infinite;
+}
+@keyframes globeSpin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.nc-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.nc-date {
+  font-family: var(--font-heading);
+  font-size: 0.65rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+.nc-tag {
+  font-family: var(--font-heading);
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+/* ─── Title — row 1 col 2, inline with meta ─── */
+.nc-title-wrap {
+  grid-row: 1;
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nc-title {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.3rem;
+}
+.nc-title-link {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s, color 0.2s;
+}
+.nc-title-link:hover {
+  color: var(--accent-gold);
+  border-bottom-color: var(--accent-gold);
+}
+.nc-rule {
+  grid-column: 1 / 3;
+  grid-row: 2;
+  border-bottom: 2px solid rgba(255,255,255,0.7);
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+/* ─── Description — row 3, spans col 1+2 (full width under meta+title+rule) ─── */
+.nc-desc-wrap {
+  grid-row: 3;
+  grid-column: 1 / 3;
+}
+
+.nc-desc {
+  font-family: var(--font-body);
+  font-size: 0.86rem;
+  color: #eee;
+  line-height: 1.5;
+  padding-top: 0.2rem;
+  margin: 0;
+}
+
+/* ─── Icon — absolute positioned so text defines height ─── */
+.nc-icon {
+  position: absolute;
+  top: 1rem;
+  bottom: 0.6rem;
+  right: 1.2rem;
+  width: 150px;
+  overflow: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.5);
+  transition: transform 0.25s, box-shadow 0.25s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
+.nc-icon:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.7);
+}
+.nc-icon:active {
+  transform: scale(1.12);
+}
+.nc-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* ─── Lightbox ─── */
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  cursor: pointer;
+  animation: fadeIn 0.2s ease;
+}
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+.lightbox-img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 6px;
+  cursor: default;
+  box-shadow: 0 0 60px rgba(0,0,0,0.8);
+  animation: scaleIn 0.25s ease;
+}
+@keyframes scaleIn {
+  from { transform: scale(0.85); opacity: 0; }
+  to   { transform: scale(1);    opacity: 1; }
+}
+
+/* ─── Pagination ─── */
+.news-pagination {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+.news-page-btn {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.3);
+  color: #ccc;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+.news-page-btn:hover, .news-page-btn.active {
+  background: var(--accent-gold);
+  border-color: var(--accent-gold);
+  color: #fff;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 1100px) {
+  .news-wrapper     { flex-direction: column; }
+  .news-left-panel  { width: 100%; height: 280px; position: relative; }
+  .news-right-panel { padding: 2rem 1.5rem; }
+  .news-card        { grid-template-columns: auto 1fr 100px; }
+  .news-card.no-icon { grid-template-columns: auto 1fr; }
+  .nc-icon          { width: 100px; max-width: 100px; }
+}
+@media (max-width: 700px) {
+  .news-card        { grid-template-columns: 1fr; grid-template-rows: auto auto auto auto auto; gap: 0; }
+  .nc-meta          { grid-row: 1; grid-column: 1; padding-bottom: 0.6rem; align-items: center; }
+  .nc-title-wrap    { grid-row: 2; grid-column: 1; }
+  .nc-rule          { grid-row: 3; grid-column: 1; }
+  .nc-desc-wrap     { grid-row: 4; grid-column: 1; }
+  .nc-icon          { 
+    position: relative;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    width: 100%; 
+    max-width: 100%; 
+    height: 160px; 
+    margin-top: 1.2rem; 
+    grid-column: 1;
+    grid-row: 5;
+  }
+}

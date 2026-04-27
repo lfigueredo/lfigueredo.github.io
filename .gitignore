@@ -1,0 +1,35 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/dist
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archive & Legacy Backups (Git Ignore)
+/supporting_material-and-FIGURES---git-IGNORE
+
+# Large Assets / Backups (if any remain in public)
+public/figures_team/**/*.zip
+public/figures_team/**/*.mp4
+public/figures_team/**/*.avi
+public/figures_luis/**/*.zip
+public/figures_luis/**/*.mp4
+
+# OS specific
+Thumbs.db
+.directory

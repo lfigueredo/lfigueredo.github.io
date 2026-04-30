@@ -108,4 +108,14 @@
     border-bottom: 1px solid var(--divider-color);
   }
   .mobile-toggle { display: block; }
+
+  /* Tighten social icons on mobile and move them away from the menu button */
+  .nav-socials {
+    gap: 0.8rem;
+    margin-right: 1rem;
+  }
+  .nav-socials img {
+    width: 20px;
+    height: 20px;
+  }
 }

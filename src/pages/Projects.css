@@ -120,6 +120,22 @@
 }
 @media (max-width: 700px) {
   .project-content-mini {
-    width: 95%;
+    width: 88%;
+    padding: 30px 20px;
+  }
+  .project-assembly {
+    padding-bottom: 40px;
+  }
+  .project-image-mini {
+    position: absolute;
+    right: -25px; 
+    bottom: -45px; /* Moved further down to border the low part of the button */
+    width: 170px;  
+    height: 95px;
+    margin-bottom: 0;
+    box-shadow: 3px 3px 15px rgba(0,0,0,0.4);
+  }
+  .project-desc {
+    margin-bottom: 35px;
   }
 }

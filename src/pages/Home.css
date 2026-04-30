@@ -74,7 +74,33 @@
 
 /* ─── Mobile ─── */
 @media (max-width: 900px) {
-  .hero-section { flex-direction: column; }
-  .hero-text-block { padding: 2rem; }
-  .hero-image-block { min-height: 300px; }
+  .hero-section { 
+    flex-direction: column-reverse; /* Image on top, text below */
+    background-color: #313145; 
+  }
+  .hero-text-block { 
+    padding: 2.5rem 1.5rem; 
+    text-align: left; /* Left justified as requested */
+  }
+  .hero-title {
+    margin-bottom: 0rem; /* Tighter space between Luis and Figueredo line */
+    line-height: 1.1;
+  }
+  .hero-subtitle {
+    margin-top: 1.5rem; /* Increased space between Figueredo and Assistant Professor */
+    margin-bottom: 2rem;
+  }
+  .hero-buttons {
+    justify-content: flex-start;
+  }
+  .hero-image-block { 
+    min-height: auto;
+    height: 380px; /* Fixed height for mobile hero */
+    background-color: #313145; /* Match navy to ensure NO gray bar shows */
+  }
+  .hero-photo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
 }

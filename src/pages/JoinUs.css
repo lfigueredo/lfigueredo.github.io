@@ -225,10 +225,16 @@
     flex-direction: column;
   }
   .joinus-image-half {
-    min-height: 400px;
+    min-height: auto;
+    height: 350px;
+    background-color: transparent; 
+  }
+  .joinus-split-banner {
+    background-color: transparent; /* Remove background so no gray bar can show */
   }
   .joinus-text-half {
-    padding: 2rem;
+    padding: 2.5rem 1.5rem;
+    background-color: #434459; /* Only the text half has the block color */
   }
   .ms-block {
     flex-direction: column;

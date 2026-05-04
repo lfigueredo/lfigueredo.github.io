@@ -20,9 +20,9 @@ export default function Projects() {
                       GO TO WEBSITE
                     </a>
                   ) : (
-                    <Link to={`/projects/${project.id}`} className="btn-gold" style={{ display: 'inline-block', position: 'relative', zIndex: 4 }}>
+                    <div className="btn-gold btn-disabled" style={{ display: 'inline-block', position: 'relative', zIndex: 4 }}>
                       READ MORE
-                    </Link>
+                    </div>
                   )}
                 </div>
                 

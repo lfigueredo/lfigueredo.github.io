@@ -95,6 +95,13 @@
   background-color: #ffffff; 
 }
 
+.btn-disabled {
+  opacity: 0.45 !important;
+  cursor: default !important;
+  pointer-events: none;
+  filter: saturate(0.5);
+}
+
 .project-content-mini:hover .project-image-mini {
   transform: scale(1.05) translate(-3px, -3px);
 }

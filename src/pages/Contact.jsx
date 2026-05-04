@@ -46,7 +46,9 @@ export default function Contact() {
           </div>
 
           <div className="contact-form-side">
-            <form className="wix-form" onSubmit={(e) => e.preventDefault()}>
+            <form className="wix-form" action="https://formsubmit.co/lfc.figueredo@gmail.com" method="POST">
+              <input type="hidden" name="_subject" value="New Contact from Website!" />
+              <input type="hidden" name="_next" value="https://lfigueredo.github.io/#/contact" />
               <div className="form-row">
                 <div className="form-group">
                   <label>First Name</label>
@@ -88,6 +90,20 @@ export default function Contact() {
 
         <section className="social-contacts-bar">
           <p>Social Media - Contacts</p>
+          <div className="contact-socials-grid">
+            <a href="https://www.linkedin.com/in/luis-figueredo-304a0612b/" target="_blank" rel="noreferrer" className="contact-social-item">
+              <img src="/icons/linkedin.png" alt="LinkedIn" />
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://scholar.google.com/citations?user=ppZN58sAAAAJ&hl=en" target="_blank" rel="noreferrer" className="contact-social-item">
+              <img src="/icons/scholar.png" alt="Google Scholar" />
+              <span>Google Scholar</span>
+            </a>
+            <a href="https://www.youtube.com/@figueredo_robotics" target="_blank" rel="noreferrer" className="contact-social-item">
+              <img src="/icons/youtube.png" alt="YouTube" />
+              <span>YouTube</span>
+            </a>
+          </div>
         </section>
       </div>
     </motion.div>

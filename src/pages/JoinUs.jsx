@@ -49,22 +49,17 @@ export default function JoinUs() {
           <div className="ms-left">
             <h3 className="applicant-title">MS Students @ Nottingham</h3>
             <p className="body-text">
-              If you are interested in applying for an MS position with me for this summer (being from UoN), please send an email with the subject "[Prospective MS Candidate - UoN - Topic]" to my email (luis.figueredo AT nottingham.ac.uk).
+              If you are interested in applying for an MS position with me for this summer, please send an email with the subject "[Prospective MS Candidate - UoN - Topic]" to my email (luis.figueredo AT nottingham.ac.uk).
             </p>
-            <p className="body-text">
-              Please find information about some open topics at this link.<br/>
-              Yet, feel free to explore my research and suggest a new one.
-            </p>
-            <button className="join-solid-btn">MS Projects @ UoN</button>
+
             <p className="body-text small-margin-top">
-              To Apply: Interested candidates are invited to submit their application, including a (1) CV and (2) academic transcript.<br/>
-              Please contact me as soon as possible as there are only 2 positions available.
+              To Apply: Interested candidates are invited to submit their application, including a (1) CV and (2) academic transcript.
             </p>
           </div>
           <div className="ms-right">
             <p className="chart-group-text">
               For other positions with other PIs, please<br/>
-              check the <a href="#">CHART Group homepage (link)</a>
+              check the <a href="https://www.chartresearch.org/" target="_blank" rel="noopener noreferrer">CHART Group homepage (link)</a>
             </p>
           </div>
         </section>

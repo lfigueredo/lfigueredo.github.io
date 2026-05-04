@@ -13,13 +13,6 @@ export default function KeepInTouch() {
         
         <div className="contact-columns">
           <div className="contact-col">
-            <h4>New PhD Positions!</h4>
-            <div className="section-divider"></div>
-            <p>We are watching for new announcements and fully funded positions in human-robot collaboration!</p>
-          </div>
-          
-
-          <div className="contact-col">
             <h4>MSc Projects and UG Projects @ Nottingham!</h4>
             <div className="section-divider"></div>
             <p>Calling for hard-working students looking to push the boundaries of intelligent robotics.</p>

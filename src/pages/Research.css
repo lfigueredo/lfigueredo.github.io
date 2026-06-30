@@ -153,11 +153,25 @@
     top: 50px;
   }
   .research-banner-text-box {
-    margin-top: 250px;
+    margin-top: 350px;
     max-width: 100%;
+    padding: 30px 25px !important;
   }
   .research-content-card {
-    padding: 2rem;
+    padding: 6px !important;
+  }
+  .intro-card {
+    padding: 15px !important;
+  }
+  .layer-content-inner {
+    padding: 0px !important;
+  }
+  .layer-intro {
+    padding: 0 15px;
+  }
+  .container-expanded {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 }
 
@@ -410,7 +424,7 @@
 @media (max-width: 900px) {
   .subtopic-card {
     flex-direction: column !important;
-    padding: 1.5rem;
+    padding: 15px !important;
   }
   .video-grid-2x2, .video-grid-3col {
     grid-template-columns: 1fr;

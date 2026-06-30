@@ -3,7 +3,7 @@ import { motion, AnimatePresence, useInView } from 'framer-motion';
 import newsData from '../data/news.json';
 import './NewsSection.css';
 
-const ITEMS_PER_PAGE = 10;
+const ITEMS_PER_PAGE = 15;
 
 const TAG_COLORS = {
   Paper:        '#8fbc8f',

@@ -167,7 +167,7 @@ export default function Research() {
 
       {/* Main Content Box */}
       <section className="research-content-section container-expanded">
-        <div className="research-content-card">
+        <div className="research-content-card intro-card">
            <h2 className="holistic-title">
              Graceful Embodied Robotics<br />
              <span className="holistic-subtitle-main">Safe, Physically Capable, and Human‑Centred Intelligence for Robots</span>

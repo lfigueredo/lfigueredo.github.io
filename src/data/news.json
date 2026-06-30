@@ -12,8 +12,8 @@
     "id": 2,
     "date": "jun. 2026",
     "tag": "Event",
-    "title": "IEEE ICRA 2026 in Vienna",
-    "description": "Great to be back at another IEEE International Conference on Robotics and Automation (ICRA) in Vienna! It was fantastic seeing old friends and colleagues, and meeting amazing new people in robotics. A highlight of the conference was our students' participation — particularly <b>Yuhe Gong</b>, who attended as Co-Chair of the IEEE RAS Student Activities Committee and won the <b>Best Paper Award</b> at the Workshop on Manipulation Robustness! Looking forward to IROS.",
+    "title": "Our group visit @ IEEE ICRA 2026 in Vienna",
+    "description": "Great to be back at another IEEE International Conference on Robotics and Automation (ICRA) in Vienna! It was fantastic seeing old friends and colleagues, and meeting amazing new people in robotics. A highlight to Yuhe Gong, who attended as Co-Chair of the IEEE RAS Student Activities Committee and won the Best Paper Award at the Workshop on Manipulation Robustness together with Riddhi! Now, looking forward to IROS.",
     "icon": "/figures/news/2026/news_2026_jun_icra_vienna.jpg",
     "links": [
       {
@@ -26,8 +26,8 @@
     "id": 3,
     "date": "jun. 2026",
     "tag": "Paper",
-    "title": "CHAI: Paper accepted @ IEEE RAL",
-    "description": "Congratulations to <b>Junhui Huang</b> for the amazing work, and the continuation of the work with <b>Arthur Bucker</b> on the LATTE paper but now including diffusion policies and compliant safe interaction. The paper <b>'CHAI: Compliant Human-centered Adaptive Interaction through Diffusion-based Language Trajectory Transformer'</b> has been accepted in IEEE Robotics and Automation Letters (RA-L).",
+    "title": "New paper just out of the print! CHAI: Compliant Human-centered Adapt. Interact. through Diffusion-based Lang. Traj. Transf. @ IEEE RAL",
+    "description": "Congratulations to Junhui Huang for the amazing work. CHAI is a novel language-driven diffusion-based framework for real-time modulation of robot's kinematics and mechanical compliance --- allowing impedance and trajectory modulation during pHRI. The work extends our previosus LATTE paper (with Arthur Bucker), now including diffusion policies and compliant safe interaction. Check it out at the link below.",
     "icon": "/figures/news/2026/news_2026_jun_chai_teaser.png",
     "links": [
       {
@@ -54,7 +54,7 @@
     "id": 5,
     "date": "abr. 2026",
     "tag": "Paper",
-    "title": "G-MAPP: Paper accepted @ IEEE RAL",
+    "title": "New paper just out of the print! G-MAPP @ IEEE RAL",
     "description": "Congratulations to <b>Tanmay Bishnoi</b> for the amazing work, and the collaboration with <b>Riddhiman Laha</b>, <b>Tobias Löw</b>, and <b>Jose Alex Chandy</b>! G-MAPP introduces a GPU-accelerated multi-agent planning and perception framework that enables real-time reactive motion generation in unstructured dynamic environments by tightly coupling perception and planning.",
     "icon": "/figures/news/2026/news_2026_apr_gmapp_teaser.png",
     "links": [
@@ -68,9 +68,9 @@
     "id": 6,
     "date": "mar. 2026",
     "tag": "Paper",
-    "title": "RAICAM lessons learned Paper accepted @ RAS",
+    "title": "RAICAM Lessons Learned - New paper just accepted at Robotics and Autonomous Systems (RAS)",
     "description": "Huge congratulations to the whole <b>RAICAM</b> team, and particularly to <b>Alperen Kenan</b>! The paper <b>'Lessons learned from the RAICAM doctoral network research sprints and field demonstrations'</b> has been accepted in the Robotics and Autonomous Systems (RAS) journal, highlighting field demonstrations and key outcomes from the RAICAM Project.",
-    "icon": "/figures/news/2026/news_2026_mar_ras_teaser.png",
+    "icon": "/figures/news/2022/news_2022_fev___msca_dn_raicam_accepted.png",
     "links": [
       {
         "label": "Read More",

@@ -28,7 +28,7 @@
     "tag": "Paper",
     "title": "New paper just out of the print! CHAI: Compliant Human-centered Adapt. Interact. through Diffusion-based Lang. Traj. Transf. @ IEEE RAL",
     "description": "Congratulations to Junhui Huang for the amazing work. CHAI is a novel language-driven diffusion-based framework for real-time modulation of robot's kinematics and mechanical compliance --- allowing impedance and trajectory modulation during pHRI. The work extends our previosus LATTE paper (with Arthur Bucker), now including diffusion policies and compliant safe interaction. Check it out at the link below.",
-    "icon": "/figures/news/2026/news_2026_jun_chai_teaser.png",
+    "icon": "/figures/news/2026/news_2026_jun_chai_teaser_v2.png",
     "links": [
       {
         "label": "Read More",
@@ -56,7 +56,7 @@
     "tag": "Paper",
     "title": "New paper just out of the print! G-MAPP @ IEEE RAL",
     "description": "Congratulations to <b>Tanmay Bishnoi</b> for the amazing work, and the collaboration with <b>Riddhiman Laha</b>, <b>Tobias Löw</b>, and <b>Jose Alex Chandy</b>! G-MAPP introduces a GPU-accelerated multi-agent planning and perception framework that enables real-time reactive motion generation in unstructured dynamic environments by tightly coupling perception and planning.",
-    "icon": "/figures/news/2026/news_2026_apr_gmapp_teaser.png",
+    "icon": "/figures/news/2026/news_2026_apr_gmapp_teaser_v2.png",
     "links": [
       {
         "label": "Read More",

@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "date": "jul. 2026",
+    "tag": "Award",
+    "title": "Rising Star - Staff Excellence Awards – UoN",
+    "description": "Really happy to share that I’ve been selected as the sole winner of the Rising Star category at the inaugural University of Nottingham Staff Excellence Awards. This recognition means a lot, especially because the nomination came as a surprise from my students. Being selected from over 400 nominations across a university with more than 7,000 staff makes it even more special.",
+    "icon": "/figures/news/2026/news_2026_jul_rising_star_award.png"
+  },
+  {
+    "id": 2,
     "date": "jun. 2026",
     "tag": "Award",
     "title": "Best Paper Award @ ICRA-26 Workshop on Manipulation Robustness",
@@ -9,7 +17,7 @@
     "icon": "/figures/news/2026/news_2026_jun_best_paper_robust_manip.png"
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "jun. 2026",
     "tag": "Event",
     "title": "Our group visit @ IEEE ICRA 2026 in Vienna",
@@ -23,7 +31,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "jun. 2026",
     "tag": "Paper",
     "title": "New paper just out of the print! CHAI: Compliant Human-centered Adapt. Interact. through Diffusion-based Lang. Traj. Transf. @ IEEE RAL",
@@ -37,7 +45,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "mai. 2026",
     "tag": "Workshop",
     "title": "2nd Workshop on Geometric-Aware Representations accepted @ IROS 2026",
@@ -51,7 +59,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "abr. 2026",
     "tag": "Paper",
     "title": "New paper just out of the print! G-MAPP @ IEEE RAL",
@@ -65,7 +73,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "mar. 2026",
     "tag": "Paper",
     "title": "RAICAM Lessons Learned - New paper just accepted at Robotics and Autonomous Systems (RAS)",
@@ -79,7 +87,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "mar. 2026",
     "tag": "Professional",
     "title": "Invited Editor @ IEEE CBS 2026",
@@ -93,7 +101,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "mar. 2026",
     "tag": "Professional",
     "title": "Riddhiman Laha – PhD Defended!",
@@ -107,7 +115,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "fev. 2026",
     "tag": "Grant",
     "title": "IEEE RAS SPARX Mentor (2026-2027)",
@@ -115,7 +123,7 @@
     "icon": "/figures/news/2026/news_2026_abr___ieee_ras_sparx_mentor_pi.png"
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "fev. 2026",
     "tag": "Award",
     "title": "Editors' Choice Certificate: Elsevier Best Paper Award",
@@ -123,7 +131,7 @@
     "icon": "/figures/news/2026/news_2026_jan___bestpaper.jpg"
   },
   {
-    "id": 11,
+    "id": 12,
     "date": "fev. 2026",
     "tag": "Event",
     "title": "GerMinas Invitation: Supporting Research in Brazil",
@@ -137,7 +145,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "date": "jan. 2026",
     "tag": "Professional",
     "title": "Yuhe Gong – Conference Events Co-Chair for the IEEE RAS Student Activities Committee",
@@ -151,7 +159,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "date": "jan. 2026",
     "tag": "Paper",
     "title": "Triple Paper Acceptance @ IEEE ICRA-26",
@@ -173,7 +181,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "date": "out. 2025",
     "tag": "Award",
     "title": "Best Paper Award – Yuhe @ Safety Robotics Workshop",
@@ -181,7 +189,7 @@
     "icon": "/figures/news/2025/news_2025_out___iros25_proxy.jpg"
   },
   {
-    "id": 15,
+    "id": 16,
     "date": "out. 2025",
     "tag": "Workshop",
     "title": "Organized 2 Workshops & Invited Talk @ IROS 2025",
@@ -203,7 +211,7 @@
     "icon": "/figures/news/2025/news_2025_out___iros25_proxy.jpg"
   },
   {
-    "id": 16,
+    "id": 17,
     "date": "set. 2025",
     "tag": "Professional",
     "title": "Area Chair - Systems Track @ HRI 2026",
@@ -217,7 +225,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "date": "jul. 2025",
     "tag": "Workshop",
     "title": "4th Geriatronics Summit & Summer School",
@@ -231,14 +239,14 @@
     "icon": "/figures/news/2025/news_2025_jul___geriatronics_25.jpg"
   },
   {
-    "id": 18,
+    "id": 19,
     "date": "jun. 2025",
     "tag": "Event",
     "title": "Live Demos of Assistive Robots @ Automatica 2025",
     "description": "Aamazing time at Automatica 2025. Together with the team of the Geriatronics Project X, and my students from UoN, I am happy to have coordinated 7 demos with personally 3 demos running in parallel, swowcasing some amazing research and putting them to real-world testing and evaluation. Amazing kudos to the whole team!"
   },
   {
-    "id": 19,
+    "id": 20,
     "date": "mai. 2025",
     "tag": "Award",
     "title": "Winner of the PhyRC Challenge @ ICRA-25",
@@ -256,7 +264,7 @@
     "icon": "/figures/news/2025/news_2025_mai___phyrc.jpg"
   },
   {
-    "id": 20,
+    "id": 21,
     "date": "mai. 2025",
     "tag": "Talk",
     "title": "Invited Talk @ ICRA 2025: Long-term Human Motion Prediction",
@@ -285,7 +293,7 @@
         "url": "https://www.linkedin.com/posts/luis-figueredo-304a0612b_atlanta-lhmp-phyrc-activity-7333201640247730176-0k67?utm_source=share&utm_medium=member_desktop&rcm=ACoAACAB0jQB45Rg_LyKLoa-2bmYxBEN2aopg1E"
       }
     ],
-    "id": 21
+    "id": 22
   },
   {
     "date": "abr. 2025",
@@ -299,10 +307,10 @@
         "url": "https://ieee-ras-robot-control.github.io/spotlights/luis-figueredo-mar2025/"
       }
     ],
-    "id": 22
+    "id": 23
   },
   {
-    "id": 23,
+    "id": 24,
     "date": "mar. 2025",
     "tag": "Paper",
     "title": "Fresh TRO Paper: Safe Robot Reflexes",
@@ -316,7 +324,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "date": "mar. 2025",
     "tag": "Grant",
     "title": "Grant: Transforming Chemistry Labs",
@@ -324,7 +332,7 @@
     "icon": "/figures/news/2025/news_2025_mar___aichemy_flat.png"
   },
   {
-    "id": 25,
+    "id": 26,
     "date": "mar. 2025",
     "tag": "Talk",
     "title": "Invited Talk @ Talking Robotics",
@@ -349,10 +357,10 @@
         "url": "https://aichemy.ac.uk/event/aichemy-annual-conference/"
       }
     ],
-    "id": 26
+    "id": 27
   },
   {
-    "id": 27,
+    "id": 28,
     "date": "fev. 2025",
     "tag": "Professional",
     "title": "Elevated to IEEE Senior Member",
@@ -360,7 +368,7 @@
     "icon": "/figures/news/2025/news_2025_fev___ieee_sm.jpg"
   },
   {
-    "id": 28,
+    "id": 29,
     "date": "jan. 2025",
     "tag": "Paper",
     "title": "Fresh Papers @ IEEE ICRA-25",
@@ -368,7 +376,7 @@
     "icon": "/figures/news/2025/news_2025_jan___fresh_papers_ieee_icra_25.jpg"
   },
   {
-    "id": 29,
+    "id": 30,
     "date": "jan. 2025",
     "tag": "Talk",
     "title": "Invited Talk @ 6th UK Robot Manipulation Workshop",
@@ -382,7 +390,7 @@
     ]
   },
   {
-    "id": 30,
+    "id": 31,
     "date": "jan. 2025",
     "tag": "Professional",
     "title": "Steering Group for Chemical Materials Design",
@@ -396,7 +404,7 @@
     ]
   },
   {
-    "id": 31,
+    "id": 32,
     "date": "jan. 2025",
     "tag": "Professional",
     "title": "IEEE UK & Ireland RAS Chapter - Secretary",
@@ -404,7 +412,7 @@
     "icon": "/figures/news/2025/news_2025_jan___ieee_uk_ireland_ras_ch.png"
   },
   {
-    "id": 32,
+    "id": 33,
     "date": "dez. 2024",
     "tag": "Workshop",
     "title": "Fresh ICRA-25 Workshops",
@@ -422,7 +430,7 @@
     ]
   },
   {
-    "id": 33,
+    "id": 34,
     "date": "out. 2024",
     "tag": "Talk",
     "title": "Invited Talk @ Plenary Talk @ SBGTEC-24 - 5th BR Conf. Gerontech",
@@ -430,7 +438,7 @@
     "icon": "/figures/news/2024/news_2024_out___invited_talk_sbgtec_24.png"
   },
   {
-    "id": 34,
+    "id": 35,
     "date": "set. 2024",
     "tag": "Talk",
     "title": "Invited Talk @ BioRob-2024 MathWorks Special Session",
@@ -444,7 +452,7 @@
     ]
   },
   {
-    "id": 35,
+    "id": 36,
     "date": "set. 2024",
     "tag": "Workshop",
     "title": "WS @ BioRob-2024 on Revolutionising Ageing",
@@ -458,7 +466,7 @@
     ]
   },
   {
-    "id": 36,
+    "id": 37,
     "date": "jul. 2024",
     "tag": "Talk",
     "title": "Invited Talk @ RSS-24 - WS on Assistive Manip.",
@@ -472,7 +480,7 @@
     ]
   },
   {
-    "id": 37,
+    "id": 38,
     "date": "jul. 2024",
     "tag": "Workshop",
     "title": "3rd Geriatronics Summit",
@@ -487,7 +495,7 @@
     ]
   },
   {
-    "id": 38,
+    "id": 39,
     "date": "jun. 2024",
     "tag": "Talk",
     "title": "Invited Talk @ Julie Shah's Lab at MIT",
@@ -495,7 +503,7 @@
     "icon": ""
   },
   {
-    "id": 39,
+    "id": 40,
     "date": "jun. 2024",
     "tag": "Event",
     "title": "Mathworks Research Summit",
@@ -503,7 +511,7 @@
     "icon": "/figures/news/2024/news_2024_jun___mathworks_research_summit.png"
   },
   {
-    "id": 40,
+    "id": 41,
     "date": "mai. 2024",
     "tag": "Award",
     "title": "ICRA New Generation Star",
@@ -517,7 +525,7 @@
     ]
   },
   {
-    "id": 41,
+    "id": 42,
     "date": "mai. 2024",
     "tag": "Talk",
     "title": "Invited Talk @ Leeds: Good to be back!",
@@ -525,7 +533,7 @@
     "icon": "/figures/news/2024/news_2024_mai___invited_talk_leeds_good_to_be.jpg"
   },
   {
-    "id": 42,
+    "id": 43,
     "date": "abr. 2024",
     "tag": "Event",
     "title": "Visit to IIT for RAICAM Event",
@@ -533,7 +541,7 @@
     "icon": "/figures/news/2024/news_2024_abr___visit_to_iit_for_raicam_event.jpg"
   },
   {
-    "id": 43,
+    "id": 44,
     "date": "mar. 2024",
     "tag": "Talk",
     "title": "Invited Talk @ Bavarian International School",
@@ -547,7 +555,7 @@
     ]
   },
   {
-    "id": 44,
+    "id": 45,
     "date": "jan. 2024",
     "tag": "Paper",
     "title": "Fresh RAL Paper: Fingertip Manipulability Paper Published",
@@ -561,7 +569,7 @@
     ]
   },
   {
-    "id": 45,
+    "id": 46,
     "date": "jan. 2024",
     "tag": "Paper",
     "title": "Papers Accepted at ICRA-24",
@@ -569,7 +577,7 @@
     "icon": "/figures/news/2024/news_2024_jan___papers_accepted_at_icra_2.jpg"
   },
   {
-    "id": 46,
+    "id": 47,
     "date": "jan. 2024",
     "tag": "Workshop",
     "title": "ICRA Workshop on Assistive Systems",
@@ -583,7 +591,7 @@
     ]
   },
   {
-    "id": 47,
+    "id": 48,
     "date": "dez. 2023",
     "tag": "Grant",
     "title": "Open Position Announcement",
@@ -591,7 +599,7 @@
     "icon": "/figures/news/2023/news_2023_dez___open_position_announcement.png"
   },
   {
-    "id": 48,
+    "id": 49,
     "date": "dez. 2023",
     "tag": "Media",
     "title": "Profile Feature @ Tagesspiegel Background",
@@ -605,7 +613,7 @@
     ]
   },
   {
-    "id": 49,
+    "id": 50,
     "date": "nov. 2023",
     "tag": "Paper",
     "title": "Fresh TRO Paper: Predictive Multi-Agent React. Planning",
@@ -619,7 +627,7 @@
     ]
   },
   {
-    "id": 50,
+    "id": 51,
     "date": "nov. 2023",
     "tag": "Paper",
     "title": "Fresh RAL Paper: Enhanced Dexterity Maps",
@@ -633,7 +641,7 @@
     ]
   },
   {
-    "id": 51,
+    "id": 52,
     "date": "out. 2023",
     "tag": "Workshop",
     "title": "IROS-23 Workshop on Geriatronics",
@@ -641,7 +649,7 @@
     "icon": "/figures/news/2023/news_2023_out___iros_23_papers_and_invited_tal.png"
   },
   {
-    "id": 52,
+    "id": 53,
     "date": "out. 2023",
     "tag": "Paper",
     "title": "IROS-23 Papers and Invited Talks",
@@ -666,10 +674,10 @@
         "url": "https://harco.hanyang.ac.kr/2023/03/03/IROS2023_workshop.html"
       }
     ],
-    "id": 53
+    "id": 54
   },
   {
-    "id": 54,
+    "id": 55,
     "date": "set. 2023",
     "tag": "Workshop",
     "title": "HFR-23 - Human-Friendly Robotics Workshop",
@@ -683,7 +691,7 @@
     ]
   },
   {
-    "id": 55,
+    "id": 56,
     "date": "ago. 2023",
     "tag": "Professional",
     "title": "Lecturer Position at Nottingham",
@@ -691,7 +699,7 @@
     "icon": "/figures/news/2023/news_2023_ago___lecturer_position_at_not.jpg"
   },
   {
-    "id": 56,
+    "id": 57,
     "date": "jul. 2023",
     "tag": "Workshop",
     "title": "2nd Geriatronics Summit",
@@ -700,7 +708,7 @@
     "icon": "/figures/news/2023/news_2023_jul___2nd_geriatronics_summit.jpg"
   },
   {
-    "id": 57,
+    "id": 58,
     "date": "jul. 2023",
     "tag": "Award",
     "title": "Geriatronics Summit Awards",
@@ -708,7 +716,7 @@
     "icon": "/figures/news/2023/news_2023_jul___geriatronics_summit_awards.jpg"
   },
   {
-    "id": 58,
+    "id": 59,
     "date": "jun. 2023",
     "tag": "Media",
     "title": "[In the Media]: Spillnot in Automatica - It won't fail!",
@@ -726,7 +734,7 @@
     ]
   },
   {
-    "id": 59,
+    "id": 60,
     "date": "mai. 2023",
     "tag": "Workshop",
     "title": "WS on Geometric Representations!",
@@ -740,7 +748,7 @@
     ]
   },
   {
-    "id": 60,
+    "id": 61,
     "date": "mai. 2023",
     "tag": "Paper",
     "title": "ICRA-23 London Time!",
@@ -748,7 +756,7 @@
     "icon": "/figures/news/2023/news_2023_mai___icra_23_london_time.jpg"
   },
   {
-    "id": 61,
+    "id": 62,
     "date": "abr. 2023",
     "tag": "Talk",
     "title": "Invited Talk @ Gabriella Pizzuto's visit and talk",
@@ -756,7 +764,7 @@
     "icon": ""
   },
   {
-    "id": 62,
+    "id": 63,
     "date": "abr. 2023",
     "tag": "Talk",
     "title": "Invited Talk @ Devanthro - RoBody!",
@@ -765,7 +773,7 @@
     "icon": "/figures/news/2023/news_2023_abr___invited_talk_devanthro_robody.jpg"
   },
   {
-    "id": 63,
+    "id": 64,
     "date": "mar. 2023",
     "tag": "Workshop",
     "title": "Fresh IROS WS - Geriatronics!",
@@ -780,7 +788,7 @@
     ]
   },
   {
-    "id": 64,
+    "id": 65,
     "date": "fev. 2023",
     "tag": "Professional",
     "title": "Associated Editor for IROS!",
@@ -788,7 +796,7 @@
     "icon": "/figures/news/2023/news_2023_fev___associated_editor_for_iros.png"
   },
   {
-    "id": 65,
+    "id": 66,
     "date": "jan. 2023",
     "tag": "Event",
     "title": "RAICAM Kick-Off Meeting!",
@@ -803,7 +811,7 @@
     ]
   },
   {
-    "id": 66,
+    "id": 67,
     "date": "jan. 2023",
     "tag": "Media",
     "title": "[In the Media]: Spillnot is everywhere!",
@@ -817,7 +825,7 @@
     ]
   },
   {
-    "id": 67,
+    "id": 68,
     "date": "jan. 2023",
     "tag": "Paper",
     "title": "Fresh Papers for ICRA-23",
@@ -826,7 +834,7 @@
     "icon": "/figures/news/2023/news_2023_jan___fresh_papers_for_icra_23.webp"
   },
   {
-    "id": 68,
+    "id": 69,
     "date": "nov. 2022",
     "tag": "Award",
     "title": "[Award]: Paper Award Finalist at IEEE-RAS Humanoids-22",
@@ -834,7 +842,7 @@
     "icon": "/figures/news/2022/news_2022_nov___award_paper_award_finalist_at.jpg"
   },
   {
-    "id": 69,
+    "id": 70,
     "date": "nov. 2022",
     "tag": "Award",
     "title": "[Award]: VDE Best Bachelor Thesis to Ben!",
@@ -848,7 +856,7 @@
     ]
   },
   {
-    "id": 70,
+    "id": 71,
     "date": "ago. 2022",
     "tag": "Media",
     "title": "[In the Media] Collab. with Microsoft",
@@ -862,7 +870,7 @@
     ]
   },
   {
-    "id": 71,
+    "id": 72,
     "date": "jun. 2022",
     "tag": "Paper",
     "title": "Fresh Papers for IROS-22",
@@ -870,7 +878,7 @@
     "icon": "/figures/news/2022/news_2022_jun___fresh_papers_for_iros_22.png"
   },
   {
-    "id": 72,
+    "id": 73,
     "date": "jun. 2022",
     "tag": "Paper",
     "title": "Demos at Automatica Munich",
@@ -878,7 +886,7 @@
     "icon": "/figures/news/2022/news_2022_jun___demos_at_automatica_muni.png"
   },
   {
-    "id": 73,
+    "id": 74,
     "date": "jun. 2022",
     "tag": "Workshop",
     "title": "1st Geriatronics Summit!",
@@ -886,7 +894,7 @@
     "icon": "/figures/news/2022/news_2022_jun___1st_geriatronics_summit.png"
   },
   {
-    "id": 74,
+    "id": 75,
     "date": "jun. 2022",
     "tag": "Award",
     "title": "Geriatronics Summit Awards",
@@ -894,7 +902,7 @@
     "icon": "/figures/news/2022/news_2022_jun___geriatronics_summit_awards.png"
   },
   {
-    "id": 75,
+    "id": 76,
     "date": "mai. 2022",
     "tag": "Award",
     "title": "Award: ICRA-22 Best Reviewer Award",
@@ -902,7 +910,7 @@
     "icon": "/figures/news/2022/news_2022_mai___award_icra_22_best_reviewer_aw.jpg"
   },
   {
-    "id": 76,
+    "id": 77,
     "date": "fev. 2022",
     "tag": "Grant",
     "title": "MSCA-DN RAICAM - Accepted",

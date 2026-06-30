@@ -92,7 +92,8 @@ const researchLayers = [
         title: 'Manifold‑Aware Feature Space and Physical‑Aware Learning for Contact‑Rich Interactions',
         text: 'Contact-rich manipulation is where purely black-box learning often becomes fragile. Tasks such as key insertion, door opening, valve turning, pushing, sliding, tool use, or forceful assembly are not just trajectories in space. They are shaped by axes, contact modes, friction, torques, constraints, energy exchange, and sequential physical relations. In this line of work, we investigate manifold-aware and physically informed learning methods that make these hidden structures easier to capture and transfer. Instead of asking learning algorithms to discover everything from raw coordinates, we use coordinate-invariant representations, task manifolds, physical-property estimation, movement primitives, impedance, and safety-aware energy bounds as inductive biases. This also connects directly to the first safety layer, where energy tanks and passivity-inspired mechanisms can ground contact-rich exploration, helping robots learn useful behaviours while keeping interaction forces and energy within safer limits.',
         videos: [
-          { id: 'N-p-V1wrx-Q', title: 'Contact-Safe Reinforcement Learning with ProMP Reparameterization and Energy Awareness - ICRA-26' }
+          { id: 'N-p-V1wrx-Q', title: 'Contact-Safe Reinforcement Learning with ProMP Reparameterization and Energy Awareness - ICRA-26' },
+          { id: '1a5-pZLc4kc', title: 'PhyPush: One Push is All You Need for Sensorless Phys. Property Estim. w Physics-Guided Transformers' }
         ]
       },
       {
@@ -115,9 +116,7 @@ const researchLayers = [
         text: 'Recent advances in robotics are closing the gap between humans and robots, but truly physical collaboration—where humans and robots push, pull, and carry together—is still a major open challenge. When robots autonomously engage in physical tasks with people, they need decision‑making that accounts not just for kinematics and obstacles, but also for human biomechanics, ergonomics, and comfort over time. Our work explicitly brings these aspects into planning and control. We study how to model human physical capabilities and ergonomics and then embed that knowledge into robot decisions, so that collaborative manipulation strategies are chosen not only for task success, but also to minimise muscular effort and reduce the risk of strain. This includes the RHuMAn toolbox for rapid manipulability and ergonomics assessment—recognised by the EU Innovation Radar—as well as planners that optimise human comfortability during forceful collaboration and methods that learn and transfer human manipulability profiles into robot control.',
         videos: [
           { id: '90bVT5fVRI0', title: 'A Dual Doctor-Patient Twin Paradigm for Transp. Remote Exam., Diagnosis, & Rehabilitation - IROS 21' },
-          { id: 'rfS4Z673_Gc', title: 'Human Digital Twin with GARMI Shaping the future of telemedicine @AI Society - Automatica 2021' },
-          { id: 'UNH-dGYZ-tQ', title: 'GELATO: Multi-Instruction Trajectory Reshaping viaGeometric-Aware Multiagent-based Orchestration' },
-          { id: 'UjUEs6mIIn0', title: 'CHAI vs0.5' }
+          { id: 'rfS4Z673_Gc', title: 'Human Digital Twin with GARMI Shaping the future of telemedicine @AI Society - Automatica 2021' }
         ]
       },
       {
@@ -125,7 +124,9 @@ const researchLayers = [
         text: 'Natural language is one of the most intuitive ways for people to express intent, preferences, corrections, and constraints. However, turning a phrase into safe and feasible robot behaviour is far from trivial. A command such as “move more gently near the edge” or “come from above” has to be translated into trajectories, constraints, forces, timing, and safety-aware execution on a real robot. In this line of work, we study language-driven and multimodal robot interaction methods that reshape robot behaviour while remaining grounded in the robot’s physical reality. This means combining language, vision, geometric constraints, passivity terms, safety envelopes, and task feasibility, so that high-level human instructions become meaningful and safe robot actions rather than disconnected semantic labels.',
         videos: [
           { id: 'gYXCKKs8Hio', title: 'Reshaping Robot Trajectories w/ NLP: A Study of Multi-Modal Data Alignm. w/ Transformers - IROS 22' },
-          { id: 'myMPTn9ZlNo', title: 'LATTE: LAnguage Trajectory TransformEr - ICRA-23' }
+          { id: 'myMPTn9ZlNo', title: 'LATTE: LAnguage Trajectory TransformEr - ICRA-23' },
+          { id: 'UNH-dGYZ-tQ', title: 'GELATO: Multi-Instruction Trajectory Reshaping via Geometric-Aware Multiagent-based Orchestration' },
+          { id: 'UjUEs6mIIn0', title: 'CHAI: Compliant Human-centered Adaptive Interaction through Diffusion-based Language Trajectory Transformer - IEEE RAL' }
         ]
       },
       {

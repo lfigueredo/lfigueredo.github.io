@@ -1,7 +1,18 @@
+import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import './JoinUs.css';
 
 export default function JoinUs() {
+  useEffect(() => {
+    if (window.location.hash.toLowerCase().includes('slides')) {
+      const element = document.getElementById('slides');
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }, 400);
+      }
+    }
+  }, []);
   return (
     <motion.div 
       className="page-container joinus-page"
@@ -87,6 +98,40 @@ export default function JoinUs() {
             <p className="body-text">
               I am regularly looking for motivated MS students who love research and/or robotics. Most of the MS students that I have mentored finished their thesis with an IROS/ICRA/CDC/ACC publication. If you are interested, I will also guide your MS thesis with a publication in mind. However, the research/thesis work should last at least 6 months. If you are interested, please email me (figueredo AT ieee.org) with the subject "[Prospective MS Student]".
             </p>
+          </div>
+        </section>
+
+        <section id="slides" className="slides-block container block-card">
+          <h3 className="applicant-title">Enhanced MSC Project Ideas - 2026-27</h3>
+          
+          <p className="body-text">
+            List of potential topics offered within (COMP4140 FYR) (COMP4141 FYR) (COMP4142 FYR) (UNUK) (26-27).
+          </p>
+          <p className="body-text">
+            If you are a UoN student, please reach out to discuss any of them. Also, please feel free to suggest new ideas, or concepts that you might be interested in working on. There is a short deadline for allocations, so please reach out as soon as possible.
+          </p>
+
+          <div className="slides-iframe-container">
+            <iframe 
+              src="https://docs.google.com/presentation/d/e/2PACX-1vQFid5SlolSH8COV_DGp-5wVU_4SW9WHbQ5iOcUgDBfnDlX3WB37l6POCsbt9ra7QsSLccms9PrZDL7/embed?start=false&loop=false&delayms=30000#slide=id.g35fc8c6aa4c_0_61"
+              title="Enhanced MSC Project Ideas Presentation"
+              allowFullScreen
+              className="slides-iframe"
+            />
+          </div>
+
+          <div className="slides-footer">
+            <a 
+              href="https://docs.google.com/presentation/d/e/2PACX-1vQFid5SlolSH8COV_DGp-5wVU_4SW9WHbQ5iOcUgDBfnDlX3WB37l6POCsbt9ra7QsSLccms9PrZDL7/pub?start=false&loop=false&delayms=30000#slide=id.g35fc8c6aa4c_0_61"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="slides-link"
+            >
+              <svg className="slides-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+              </svg>
+              Full presentation Link
+            </a>
           </div>
         </section>
       </div>

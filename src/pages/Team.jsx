@@ -209,6 +209,13 @@ export default function Team() {
 
   const formerOthers = [
     {
+        "name": "Zhifeng Wu",
+        "role": "MSc Research",
+        "period": "MIRMI-TUM | Now @ Hongxing Tech.",
+        "desc": "Zhifeng worked on keypoints detection and instance part segmentation for robust robotic manipulation, extending methods such as ReKep with integration to motion planning. He is now working at Hongxing Tech. with humanoids.",
+        "image": "/figures/team_profiles/zhifeng_wu.png"
+    },
+    {
         "name": "Stephen Kalu",
         "role": "MSc Research",
         "period": "Nottingham",

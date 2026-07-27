@@ -16,16 +16,76 @@ const TAG_COLORS = {
   Grant:        '#ffd166',
 };
 
-/* ── Lightbox ── */
-function Lightbox({ src, onClose }) {
+/* ── Lightbox Gallery ── */
+function Lightbox({ images, initialIndex = 0, onClose }) {
+  const [currentIndex, setCurrentIndex] = useState(initialIndex);
+
+  const handlePrev = (e) => {
+    if (e) e.stopPropagation();
+    setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
+  };
+
+  const handleNext = (e) => {
+    if (e) e.stopPropagation();
+    setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+  };
+
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'ArrowLeft') {
+        setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
+      } else if (e.key === 'ArrowRight') {
+        setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+      } else if (e.key === 'Escape') {
+        onClose();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [images.length, onClose]);
+
+  if (!images || images.length === 0) return null;
+
   return (
     <div className="lightbox-overlay" onClick={onClose}>
-      <img 
-        src={src} 
-        alt="expanded" 
-        className="lightbox-img" 
-        onClick={(e) => e.stopPropagation()}
-      />
+      <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
+        <button className="lightbox-close" onClick={onClose} aria-label="Close modal">×</button>
+        
+        <div className="lightbox-main">
+          {images.length > 1 && (
+            <button className="lightbox-arrow left" onClick={handlePrev} aria-label="Previous figure">
+              &#10094;
+            </button>
+          )}
+          
+          <img 
+            src={images[currentIndex]} 
+            alt={`expanded view ${currentIndex + 1}`} 
+            className="lightbox-img" 
+          />
+
+          {images.length > 1 && (
+            <button className="lightbox-arrow right" onClick={handleNext} aria-label="Next figure">
+              &#10095;
+            </button>
+          )}
+        </div>
+
+        {images.length > 1 && (
+          <div className="lightbox-footer">
+            <span className="lightbox-counter">{currentIndex + 1} / {images.length}</span>
+            <div className="lightbox-dots">
+              {images.map((_, i) => (
+                <span
+                  key={i}
+                  className={`lightbox-dot ${i === currentIndex ? 'active' : ''}`}
+                  onClick={(e) => { e.stopPropagation(); setCurrentIndex(i); }}
+                />
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
     </div>
   );
 }
@@ -34,8 +94,25 @@ function Lightbox({ src, onClose }) {
 function NewsCard({ item }) {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: '-60px' });
-  const [light, setLight] = useState(null);
   const [scrolling, setScrolling] = useState(false);
+  const [lightboxState, setLightboxState] = useState({ isOpen: false, index: 0 });
+
+  // Normalize images array (supports item.icons array or item.icon string/array)
+  const images = Array.isArray(item.icons)
+    ? item.icons
+    : Array.isArray(item.icon)
+    ? item.icon
+    : item.icon
+    ? [item.icon]
+    : [];
+
+  // Pick a random image index on initial load
+  const [selectedIndex] = useState(() => {
+    if (images.length > 0) {
+      return Math.floor(Math.random() * images.length);
+    }
+    return 0;
+  });
 
   // Globe only rotates while user is scrolling
   useEffect(() => {
@@ -53,7 +130,7 @@ function NewsCard({ item }) {
     <>
       <motion.div
         ref={ref}
-        className={`news-card${item.icon ? '' : ' no-icon'}`}
+        className={`news-card${images.length > 0 ? '' : ' no-icon'}`}
         initial={{ opacity: 0, y: 28 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.45 }}
@@ -101,18 +178,29 @@ function NewsCard({ item }) {
         </div>
 
         {/* Col 3, spans rows 1-2: icon */}
-        {item.icon && (
+        {images.length > 0 && (
           <div 
             className="nc-icon"
-            onClick={() => setLight(item.icon)}
-            title="Click to enlarge"
+            onClick={() => setLightboxState({ isOpen: true, index: selectedIndex })}
+            title={images.length > 1 ? "Click to enlarge gallery" : "Click to enlarge"}
           >
-            <img src={item.icon} alt={item.tag} />
+            <img src={images[selectedIndex]} alt={item.tag} />
+            {images.length > 1 && (
+              <span className="nc-icon-badge" title={`${images.length} figures available`}>
+                🖼️ {images.length}
+              </span>
+            )}
           </div>
         )}
       </motion.div>
 
-      {light && <Lightbox src={light} onClose={() => setLight(null)} />}
+      {lightboxState.isOpen && (
+        <Lightbox 
+          images={images} 
+          initialIndex={lightboxState.index} 
+          onClose={() => setLightboxState({ isOpen: false, index: 0 })} 
+        />
+      )}
     </>
   );
 }

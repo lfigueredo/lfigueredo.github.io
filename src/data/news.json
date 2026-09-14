@@ -3,7 +3,7 @@
     "id": 1,
     "date": "set. 2026",
     "tag": "Professional",
-    "title": "Busy editorial times ahead! 🤖📄 (i) Joining IEEE RA-L as AE + (ii) HRI-27 Area-Chair + (iii) ICRA-27 AE 2x",
+    "title": "Busy editorial times ahead! 🤖📄 (i) Joining IEEE RA-L as Associate Editor (Human-Centered Robotics and Automation) + (ii) HRI-27 Area-Chair + (iii) ICRA-27 AE (Applications & Robot Learning)",
     "description": "Happy and excited to support our robotics community! This fall, I'm joining IEEE RA-L as Associate Editor (Human-Centered Robotics and Automation) while also serving as AE for ICRA-27, across Applications and Robot Learning with two different amazing editors, and as Area Chair for the HRI-27 Technical Track. Looking forward to supporting high-quality peer review, constructive feedback, and great research across our community. Busy months ahead! 😅"
   },
   {
@@ -52,7 +52,7 @@
     "links": [
       {
         "label": "Read More",
-        "url": "https://arxiv.org/pdf/2504.17647"
+        "url": "https://ieeexplore.ieee.org/abstract/document/11622880"
       }
     ]
   },
@@ -65,6 +65,12 @@
     "icons": [
       "/figures/news/2026/news_2026_jul_blast_bspline_gcs.png",
       "/figures/news/2026/news_2026_jul_biomimetic_handover_thri.png"
+    ],
+    "links": [
+      {
+        "label": "Read More",
+        "url": "https://ieeexplore.ieee.org/abstract/document/11669002"
+      }
     ]
   },
   {

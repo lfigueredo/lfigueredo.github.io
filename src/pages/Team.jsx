@@ -1,9 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaLinkedin, FaGithub, FaGlobe, FaGraduationCap, FaYoutube } from 'react-icons/fa';
 import './Team.css';
 
+const slugify = (name) =>
+  name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+    .replace(/^dr\.\s*/, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+
 export default function Team() {
+  const location = useLocation();
+
+  // Deep-link support: /#/team?member=haowen-yao scrolls to that member's card
+  useEffect(() => {
+    const member = new URLSearchParams(location.search).get('member');
+    if (!member) return;
+    const timer = setTimeout(() => {
+      const el = document.getElementById(member);
+      if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 110, behavior: 'smooth' });
+    }, 400);
+    return () => clearTimeout(timer);
+  }, [location.search]);
+
   const currentTeam = [
     {
       name: "Dr. Luis Figueredo",
@@ -329,6 +347,7 @@ export default function Team() {
           {currentTeam.map((member, idx) => (
             <motion.div 
               key={idx} 
+              id={slugify(member.name)}
               className={`team-card ${idx % 2 !== 0 ? "team-card-reverse" : ""}`}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}

@@ -106,13 +106,8 @@ function NewsCard({ item }) {
     ? [item.icon]
     : [];
 
-  // Pick a random image index on initial load
-  const [selectedIndex] = useState(() => {
-    if (images.length > 0) {
-      return Math.floor(Math.random() * images.length);
-    }
-    return 0;
-  });
+  // Default to first image as card thumbnail
+  const [selectedIndex] = useState(0);
 
   // Globe only rotates while user is scrolling
   useEffect(() => {
@@ -168,11 +163,14 @@ function NewsCard({ item }) {
           <p className="nc-desc" dangerouslySetInnerHTML={{ __html: item.description }}></p>
           {item.links && item.links.length > 0 && (
             <div className="nc-buttons" style={{ marginTop: '8px', display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
-              {item.links.map((btn, i) => (
-                <a key={i} href={btn.url} target="_blank" rel="noopener noreferrer" className="btn-gold" style={{ padding: '0.2rem 0.6rem', fontSize: '0.75rem', lineHeight: '1.2' }}>
-                  {btn.label || 'Read More'}
-                </a>
-              ))}
+              {item.links.map((btn, i) => {
+                const isInternal = btn.url.startsWith('/#') || btn.url.startsWith('#');
+                return (
+                  <a key={i} href={btn.url} {...(isInternal ? {} : { target: '_blank', rel: 'noopener noreferrer' })} className="btn-gold" style={{ padding: '0.2rem 0.6rem', fontSize: '0.75rem', lineHeight: '1.2' }}>
+                    {btn.label || 'Read More'}
+                  </a>
+                );
+              })}
             </div>
           )}
         </div>
